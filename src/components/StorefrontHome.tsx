@@ -278,6 +278,8 @@ export function StorefrontHome({
               key={activeSlide.id + activeSlide.image}
               src={activeSlide.image}
               alt={activeSlide.title}
+              fetchPriority="high"
+              decoding="async"
               referrerPolicy="no-referrer"
               initial={
                 prefersReducedMotion
@@ -521,6 +523,8 @@ export function StorefrontHome({
                       <img
                         src={matchedProductImage}
                         alt={`Produtos da categoria ${category}`}
+                        loading="lazy"
+                        decoding="async"
                         referrerPolicy="no-referrer"
                         onError={() =>
                           setFailedCategoryImgs((prev) => ({
