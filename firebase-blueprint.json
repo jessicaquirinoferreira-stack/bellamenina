@@ -1,0 +1,231 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "Makeup, cosmetic, gloss, mask, foundation, moisturizer, body splash, basket, cap, or accessory item in Bella Menina Makeup catalog.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "minLength": 2, "maxLength": 160 },
+        "description": { "type": "string", "minLength": 1, "maxLength": 4000 },
+        "price": { "type": "number" },
+        "promoPrice": { "type": "number" },
+        "stock": { "type": "number" },
+        "sku": { "type": "string", "minLength": 2, "maxLength": 64, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "category": { "type": "string", "minLength": 2, "maxLength": 60 },
+        "brand": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "tags": { "type": "array" },
+        "weightGrams": { "type": "number" },
+        "images": { "type": "array" },
+        "videoUrl": { "type": "string", "maxLength": 1000 },
+        "swatches": { "type": "array" },
+        "status": { "type": "string", "enum": ["active", "inactive"] },
+        "isNew": { "type": "boolean" },
+        "salesCount": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "description", "price", "stock", "sku", "category", "brand", "weightGrams", "images", "status", "createdAt", "updatedAt"]
+    },
+    "Customer": {
+      "title": "Customer",
+      "description": "Registered customer profile with PII and saved delivery addresses.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "minLength": 2, "maxLength": 140 },
+        "email": { "type": "string", "maxLength": 160 },
+        "cpf": { "type": "string", "maxLength": 20 },
+        "birthDate": { "type": "string", "maxLength": 20 },
+        "phone": { "type": "string", "maxLength": 30 },
+        "secondaryPhone": { "type": "string", "maxLength": 30 },
+        "role": { "type": "string", "enum": ["customer"] },
+        "blocked": { "type": "boolean" },
+        "addresses": { "type": "array" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "email", "phone", "role", "blocked", "addresses", "createdAt", "updatedAt"]
+    },
+    "WaitlistItem": {
+      "title": "WaitlistItem",
+      "description": "Out-of-stock product notification entry saved by a customer.",
+      "type": "object",
+      "properties": {
+        "customerId": { "type": "string", "maxLength": 128 },
+        "customerEmail": { "type": "string", "maxLength": 160 },
+        "productId": { "type": "string", "maxLength": 128 },
+        "productName": { "type": "string", "maxLength": 160 },
+        "productImage": { "type": "string", "maxLength": 1000 },
+        "productPrice": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["customerId", "customerEmail", "productId", "productName", "productPrice", "createdAt"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer purchase order from storefront, WhatsApp, or physical POS (PDV de Balcão).",
+      "type": "object",
+      "properties": {
+        "orderNumber": { "type": "string", "minLength": 3, "maxLength": 40 },
+        "customerId": { "type": "string", "maxLength": 128 },
+        "customerName": { "type": "string", "minLength": 2, "maxLength": 140 },
+        "customerEmail": { "type": "string", "maxLength": 160 },
+        "customerPhone": { "type": "string", "minLength": 8, "maxLength": 30 },
+        "address": { "type": "object" },
+        "items": { "type": "array" },
+        "subtotal": { "type": "number" },
+        "discount": { "type": "number" },
+        "shippingCost": { "type": "number" },
+        "shippingMethod": { "type": "string", "maxLength": 80 },
+        "trackingCode": { "type": "string", "maxLength": 60 },
+        "couponCode": { "type": "string", "maxLength": 40 },
+        "total": { "type": "number" },
+        "origin": { "type": "string", "enum": ["site", "whatsapp", "balcao"] },
+        "paymentMethod": { "type": "string", "maxLength": 60 },
+        "status": { "type": "string", "enum": ["pending", "confirmed", "shipped", "delivered", "cancelled"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["orderNumber", "customerName", "customerPhone", "items", "subtotal", "discount", "shippingCost", "total", "origin", "status", "createdAt", "updatedAt"]
+    },
+    "Coupon": {
+      "title": "Coupon",
+      "description": "Promotional discount coupon configured by store administrator.",
+      "type": "object",
+      "properties": {
+        "code": { "type": "string", "minLength": 2, "maxLength": 40, "pattern": "^[A-Z0-9_\\-]+$" },
+        "type": { "type": "string", "enum": ["percent", "fixed"] },
+        "value": { "type": "number" },
+        "minPurchase": { "type": "number" },
+        "maxUses": { "type": "number" },
+        "usedCount": { "type": "number" },
+        "expiresAt": { "type": "string", "maxLength": 40 },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["code", "type", "value", "minPurchase", "maxUses", "usedCount", "active", "createdAt", "updatedAt"]
+    },
+    "StoreSettings": {
+      "title": "StoreSettings",
+      "description": "Global storefront branding, WhatsApp config, shipping, payment, banners, social links, and SEO settings.",
+      "type": "object",
+      "properties": {
+        "storeName": { "type": "string", "maxLength": 120 },
+        "slogan": { "type": "string", "maxLength": 200 },
+        "whatsappNumber": { "type": "string", "maxLength": 30 },
+        "whatsappWelcome": { "type": "string", "maxLength": 600 },
+        "whatsappOrderTemplate": { "type": "string", "maxLength": 1500 },
+        "instagramUrl": { "type": "string", "maxLength": 300 },
+        "tiktokUrl": { "type": "string", "maxLength": 300 },
+        "facebookUrl": { "type": "string", "maxLength": 300 },
+        "businessHours": { "type": "string", "maxLength": 200 },
+        "footerText": { "type": "string", "maxLength": 400 },
+        "heroBannerUrl": { "type": "string", "maxLength": 1000 },
+        "secondaryBannerUrl": { "type": "string", "maxLength": 1000 },
+        "seoTitle": { "type": "string", "maxLength": 160 },
+        "seoDescription": { "type": "string", "maxLength": 320 },
+        "primaryColor": { "type": "string", "maxLength": 20 },
+        "logoUrl": { "type": "string", "maxLength": 1000 },
+        "shippingConfig": { "type": "object" },
+        "paymentConfig": { "type": "object" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["storeName", "slogan", "whatsappNumber", "primaryColor", "updatedAt"]
+    },
+    "Feedback": {
+      "title": "Feedback",
+      "description": "Customer testimonial / review displayed in the Feedback section.",
+      "type": "object",
+      "properties": {
+        "customerName": { "type": "string", "maxLength": 100 },
+        "neighborhood": { "type": "string", "maxLength": 100 },
+        "rating": { "type": "number" },
+        "comment": { "type": "string", "maxLength": 600 },
+        "productName": { "type": "string", "maxLength": 120 },
+        "approved": { "type": "boolean" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["customerName", "rating", "comment", "approved", "createdAt"]
+    },
+    "AdminLog": {
+      "title": "AdminLog",
+      "description": "Immutable audit log of administrator actions.",
+      "type": "object",
+      "properties": {
+        "actorEmail": { "type": "string", "maxLength": 160 },
+        "action": { "type": "string", "maxLength": 160 },
+        "entityType": { "type": "string", "enum": ["product", "category", "order", "customer", "coupon", "settings", "auth", "stock"] },
+        "entityId": { "type": "string", "maxLength": 128 },
+        "details": { "type": "string", "maxLength": 500 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["actorEmail", "action", "entityType", "details", "createdAt"]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Dynamic storefront category / department managed in real-time by administrators.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "minLength": 2, "maxLength": 60 },
+        "imageUrl": { "type": "string", "maxLength": 1000 },
+        "order": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "order", "createdAt", "updatedAt"]
+    },
+    "Admin": {
+      "title": "Admin",
+      "description": "Authorized store administrators.",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "maxLength": 160 },
+        "role": { "type": "string", "enum": ["admin"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["email", "role", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/categories/{categoryId}": {
+      "schema": { "$ref": "#/entities/Category" },
+      "description": "Publicly readable store categories managed by admins."
+    },
+    "/products/{productId}": {
+      "schema": { "$ref": "#/entities/Product" },
+      "description": "Publicly readable catalog products managed in real-time by admins."
+    },
+    "/customers/{customerId}": {
+      "schema": { "$ref": "#/entities/Customer" },
+      "description": "Customer profiles containing PII and saved addresses; isolated to owner or admin."
+    },
+    "/waitlist/{waitlistId}": {
+      "schema": { "$ref": "#/entities/WaitlistItem" },
+      "description": "Customer restock waitlist items linked to valid product IDs."
+    },
+    "/orders/{orderId}": {
+      "schema": { "$ref": "#/entities/Order" },
+      "description": "PII-protected customer orders readable by owner or admin and managed by admins."
+    },
+    "/coupons/{couponId}": {
+      "schema": { "$ref": "#/entities/Coupon" },
+      "description": "Promotional coupons checked during checkout and managed by admins."
+    },
+    "/settings/{settingId}": {
+      "schema": { "$ref": "#/entities/StoreSettings" },
+      "description": "Global storefront configuration document."
+    },
+    "/feedbacks/{feedbackId}": {
+      "schema": { "$ref": "#/entities/Feedback" },
+      "description": "Customer testimonials and product feedback."
+    },
+    "/adminLogs/{logId}": {
+      "schema": { "$ref": "#/entities/AdminLog" },
+      "description": "Immutable audit logs strictly restricted to administrators."
+    },
+    "/admins/{adminId}": {
+      "schema": { "$ref": "#/entities/Admin" },
+      "description": "Admin role membership records."
+    }
+  }
+}

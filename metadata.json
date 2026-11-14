@@ -1,0 +1,8 @@
+{
+  "name": "Bella Menina Makeup",
+  "description": "Tudo para realçar sua beleza! E-commerce premium de maquiagem, glosses com charms, body splash, cosméticos, cestas e bonés em Goiânia – GO e entrega nacional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

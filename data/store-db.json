@@ -1,0 +1,908 @@
+{
+  "categories": [
+    {
+      "id": "cat-body-splash",
+      "name": "Body Splash",
+      "imageUrl": "/src/assets/images/prod_body_splash_1794666452189.jpg",
+      "order": 0,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-batom",
+      "name": "Batom",
+      "imageUrl": "/src/assets/images/prod_batom_velvet_1794666452287.jpg",
+      "order": 1,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-gloss",
+      "name": "Gloss",
+      "imageUrl": "/src/assets/images/prod_gloss_charm_1794666450618.jpg",
+      "order": 2,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-cosmeticos",
+      "name": "Cosméticos",
+      "imageUrl": "/src/assets/images/cat_cosmeticos_paleta_1794669305587.jpg",
+      "order": 3,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-mascaras",
+      "name": "Máscaras",
+      "imageUrl": "/src/assets/images/cat_mascaras_facial_1794669305757.jpg",
+      "order": 4,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-bases",
+      "name": "Bases",
+      "imageUrl": "/src/assets/images/cat_bases_serum_1794669307157.jpg",
+      "order": 5,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-hidratantes",
+      "name": "Hidratantes",
+      "imageUrl": "/src/assets/images/cat_hidratantes_creme_1794669306993.jpg",
+      "order": 6,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-cestas",
+      "name": "Cestas",
+      "imageUrl": "/src/assets/images/prod_cesta_presente_1794666452579.jpg",
+      "order": 7,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-bones",
+      "name": "Bonés",
+      "imageUrl": "/src/assets/images/prod_bone_cosmeticos_1794666455674.jpg",
+      "order": 8,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "cat-acessorios",
+      "name": "Acessórios",
+      "imageUrl": "/src/assets/images/cat_acessorios_pinceis_1794669306823.jpg",
+      "order": 9,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-gloss-charm-cereja",
+      "name": "Gloss Glow com Charm Cereja & Soda",
+      "description": "Brilho labial espelhado enriquecido com óleo de jojoba e vitamina E. Acompanha pingente colecionável banhado a dourado (Cereja ou Soda Pop) preso à tampa para levar na bolsa ou celular.",
+      "price": 24.9,
+      "promoPrice": 18.9,
+      "stock": 28,
+      "sku": "BM-GLS-001",
+      "category": "Gloss",
+      "brand": "Bella Menina Exclusive",
+      "tags": [
+        "gloss",
+        "charms",
+        "novidade",
+        "cereja"
+      ],
+      "weightGrams": 75,
+      "images": [
+        "/src/assets/images/prod_gloss_charm_1794666450618.jpg",
+        "/src/assets/images/hero_beauty_editorial_1794666450438.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Cereja Fizz",
+          "hex": "#E11D48"
+        },
+        {
+          "name": "Soda Pop Pink",
+          "hex": "#FF2D6F"
+        },
+        {
+          "name": "Morango Cristal",
+          "hex": "#FB7185"
+        }
+      ],
+      "status": "active",
+      "isNew": true,
+      "salesCount": 164,
+      "createdAt": "2026-11-01T10:00:00.000Z",
+      "updatedAt": "2026-11-12T14:00:00.000Z"
+    },
+    {
+      "id": "prod-body-splash-rose",
+      "name": "Body Splash Rosé Lumière 200ml",
+      "description": "Bruma corporal perfumada com notas de pétalas de rosa damascena, framboesa fresca e baunilha suave. Fixação delicada de longa duração para o dia inteiro.",
+      "price": 54.9,
+      "promoPrice": 44.9,
+      "stock": 19,
+      "sku": "BM-BSP-002",
+      "category": "Body Splash",
+      "brand": "Bella Menina Atelier",
+      "tags": [
+        "body splash",
+        "perfumaria",
+        "presente"
+      ],
+      "weightGrams": 290,
+      "images": [
+        "/src/assets/images/prod_body_splash_1794666452189.jpg",
+        "/src/assets/images/hero_beauty_editorial_1794666450438.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Rosé Floral",
+          "hex": "#F472B6"
+        },
+        {
+          "name": "Morango Chantilly",
+          "hex": "#FF2D6F"
+        }
+      ],
+      "status": "active",
+      "isNew": true,
+      "salesCount": 132,
+      "createdAt": "2026-11-02T10:00:00.000Z",
+      "updatedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "id": "prod-batom-velvet-couture",
+      "name": "Batom Velvet Matte Alta Pigmentação",
+      "description": "Textura aveludada que desliza sem ressecar os lábios, com acabamento soft-matte e ácido hialurônico. Cores pensadas para todos os tons de pele.",
+      "price": 22.9,
+      "promoPrice": 14.9,
+      "stock": 34,
+      "sku": "BM-BTM-003",
+      "category": "Batom",
+      "brand": "Bella Menina",
+      "tags": [
+        "batom",
+        "matte",
+        "swatch"
+      ],
+      "weightGrams": 60,
+      "images": [
+        "/src/assets/images/prod_batom_velvet_1794666452287.jpg",
+        "/src/assets/images/hero_beauty_editorial_1794666450438.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Nude Goiânia",
+          "hex": "#C06C76"
+        },
+        {
+          "name": "Rosa Malva",
+          "hex": "#B95479"
+        },
+        {
+          "name": "Vinho Cereja",
+          "hex": "#7F1D3A"
+        }
+      ],
+      "status": "active",
+      "isNew": false,
+      "salesCount": 148,
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "updatedAt": "2026-11-10T10:00:00.000Z"
+    },
+    {
+      "id": "prod-lip-balm-cinco",
+      "name": "Creme Hidratante Cloud & Lip Balm Frutinhas",
+      "description": "Hidratante facial e labial diário com manteiga de karité e cheirinho irresistível de morango. Nosso queridinho de entrada a partir de R$ 5,00 para deixar sempre na nécessaire.",
+      "price": 7,
+      "promoPrice": 5,
+      "stock": 6,
+      "sku": "BM-ACH-005",
+      "category": "Hidratantes",
+      "brand": "Bella Menina Pop",
+      "tags": [
+        "a partir de 5",
+        "achadinho",
+        "hidratante"
+      ],
+      "weightGrams": 40,
+      "images": [
+        "/src/assets/images/cat_hidratantes_creme_1794669306993.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Morango",
+          "hex": "#FF4D79"
+        },
+        {
+          "name": "Melancia",
+          "hex": "#FB7185"
+        }
+      ],
+      "status": "active",
+      "isNew": true,
+      "salesCount": 215,
+      "createdAt": "2026-10-15T10:00:00.000Z",
+      "updatedAt": "2026-11-14T08:00:00.000Z"
+    },
+    {
+      "id": "prod-cesta-encanto",
+      "name": "Cesta Presente Encanto Rosa Completo",
+      "description": "Cesta artesanal com laço de cetim rosé contendo 2 glosses glow, hidratante facial de rosas, 2 máscaras faciais coreanas e rolinho massageador de quartzo rosa.",
+      "price": 139.9,
+      "promoPrice": 119.9,
+      "stock": 7,
+      "sku": "BM-CST-004",
+      "category": "Cestas",
+      "brand": "Bella Menina Gift",
+      "tags": [
+        "cesta",
+        "presente",
+        "skincare",
+        "luxo"
+      ],
+      "weightGrams": 850,
+      "images": [
+        "/src/assets/images/prod_cesta_presente_1794666452579.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Edição Rosé Cetim",
+          "hex": "#F9A8D4"
+        }
+      ],
+      "status": "active",
+      "isNew": true,
+      "salesCount": 64,
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "prod-bone-kit-glow",
+      "name": "Boné Pastel Rosé + Duo Blush & Hidratante",
+      "description": "Boné estruturado em sarja 100% algodão com regulagem traseira combinado com hidratante facial Glow Dew e paleta de blush iluminador com espelho.",
+      "price": 69.9,
+      "promoPrice": 54.9,
+      "stock": 14,
+      "sku": "BM-BON-006",
+      "category": "Bonés",
+      "brand": "Bella Menina Street",
+      "tags": [
+        "boné",
+        "acessórios",
+        "blush"
+      ],
+      "weightGrams": 340,
+      "images": [
+        "/src/assets/images/prod_bone_cosmeticos_1794666455674.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Rosa Bebê",
+          "hex": "#FBCFE8"
+        },
+        {
+          "name": "Pink Vibrante",
+          "hex": "#FF2D6F"
+        }
+      ],
+      "status": "active",
+      "isNew": false,
+      "salesCount": 53,
+      "createdAt": "2026-10-28T10:00:00.000Z",
+      "updatedAt": "2026-11-11T10:00:00.000Z"
+    },
+    {
+      "id": "prod-base-hidratante-matte",
+      "name": "Base Sérum Soft Glow Alta Cobertura",
+      "description": "Cobertura média construível com efeito segunda pele, controle de oleosidade e niacinamida. Ideal para o clima quente de Goiânia sem craquelar.",
+      "price": 36.9,
+      "promoPrice": 29.9,
+      "stock": 22,
+      "sku": "BM-BAS-007",
+      "category": "Bases",
+      "brand": "Bella Menina Pro",
+      "tags": [
+        "base",
+        "pele",
+        "matte",
+        "niacinamida"
+      ],
+      "weightGrams": 130,
+      "images": [
+        "/src/assets/images/cat_bases_serum_1794669307157.jpg",
+        "/src/assets/images/hero_beauty_editorial_1794666450438.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Claro 01",
+          "hex": "#F3D2C1"
+        },
+        {
+          "name": "Médio 03",
+          "hex": "#DDA982"
+        },
+        {
+          "name": "Escuro 06",
+          "hex": "#8D5524"
+        }
+      ],
+      "status": "active",
+      "isNew": false,
+      "salesCount": 92,
+      "createdAt": "2026-10-22T10:00:00.000Z",
+      "updatedAt": "2026-11-09T10:00:00.000Z"
+    },
+    {
+      "id": "prod-mascara-rosa-mosqueta",
+      "name": "Máscara Facial Rosa Mosqueta + Esponja",
+      "description": "Combo skincare express a partir de precinhos irresistíveis: máscara em tecido calmante com extrato de rosas + mini esponja macia para aplicação de corretivo.",
+      "price": 9.9,
+      "promoPrice": 6.5,
+      "stock": 4,
+      "sku": "BM-MSK-008",
+      "category": "Máscaras",
+      "brand": "Bella Menina Care",
+      "tags": [
+        "máscara",
+        "esponja",
+        "achadinho"
+      ],
+      "weightGrams": 65,
+      "images": [
+        "/src/assets/images/cat_mascaras_facial_1794669305757.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Rosa Mosqueta",
+          "hex": "#F43F5E"
+        }
+      ],
+      "status": "active",
+      "isNew": true,
+      "salesCount": 162,
+      "createdAt": "2026-11-06T10:00:00.000Z",
+      "updatedAt": "2026-11-14T07:00:00.000Z"
+    },
+    {
+      "id": "prod-paleta-blush-iluminador",
+      "name": "Paleta Trio Blush & Iluminador Rosé",
+      "description": "Três tons micronizados com micropérolas iluminadoras e sombras cintilantes para bochechas coradas e radiantes o dia todo.",
+      "price": 34.9,
+      "promoPrice": 27.9,
+      "stock": 15,
+      "sku": "BM-COS-009",
+      "category": "Cosméticos",
+      "brand": "Bella Menina Pro",
+      "tags": [
+        "blush",
+        "iluminador",
+        "paleta"
+      ],
+      "weightGrams": 110,
+      "images": [
+        "/src/assets/images/cat_cosmeticos_paleta_1794669305587.jpg",
+        "/src/assets/images/hero_beauty_editorial_1794666450438.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Rosé Champagne",
+          "hex": "#F472B6"
+        }
+      ],
+      "status": "active",
+      "isNew": true,
+      "salesCount": 84,
+      "createdAt": "2026-11-07T10:00:00.000Z",
+      "updatedAt": "2026-11-13T15:00:00.000Z"
+    },
+    {
+      "id": "prod-kit-pinceis-cetim",
+      "name": "Kit Mini Pincéis & Espelho Pocket Pink",
+      "description": "Acessórios essenciais para retoques rápidos na bolsa: pincéis macios sintéticos rosa e champagne gold + espelho pocket rosa pink + esponja gota.",
+      "price": 29.9,
+      "promoPrice": 24.9,
+      "stock": 0,
+      "sku": "BM-ACS-010",
+      "category": "Acessórios",
+      "brand": "Bella Menina",
+      "tags": [
+        "acessórios",
+        "pincéis",
+        "espelho"
+      ],
+      "weightGrams": 120,
+      "images": [
+        "/src/assets/images/cat_acessorios_pinceis_1794669306823.jpg"
+      ],
+      "swatches": [
+        {
+          "name": "Pink Pearl",
+          "hex": "#FF2D6F"
+        }
+      ],
+      "status": "active",
+      "isNew": false,
+      "salesCount": 71,
+      "createdAt": "2026-10-18T10:00:00.000Z",
+      "updatedAt": "2026-11-10T10:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1041",
+      "orderNumber": "BM-1041",
+      "customerId": "cust-mariana",
+      "customerName": "Mariana Oliveira Silva",
+      "customerEmail": "mariana@bellacliente.com",
+      "customerPhone": "(62) 99812-4410",
+      "address": {
+        "cep": "74150-050",
+        "street": "Rua 135",
+        "number": "412",
+        "complement": "Apto 802",
+        "neighborhood": "Setor Marista",
+        "city": "Goiânia",
+        "state": "GO"
+      },
+      "items": [
+        {
+          "productId": "prod-gloss-charm-cereja",
+          "name": "Gloss Glow com Charm Cereja & Soda",
+          "sku": "BM-GLS-001",
+          "unitPrice": 18.9,
+          "quantity": 2,
+          "swatchName": "Cereja Fizz"
+        },
+        {
+          "productId": "prod-body-splash-rose",
+          "name": "Body Splash Rosé Lumière 200ml",
+          "sku": "BM-BSP-002",
+          "unitPrice": 44.9,
+          "quantity": 1,
+          "swatchName": "Rosé Floral"
+        }
+      ],
+      "subtotal": 82.7,
+      "discount": 8.27,
+      "shippingCost": 12,
+      "shippingMethod": "Entrega Expressa Goiânia & Região",
+      "trackingCode": "GYN-EXP-1041",
+      "couponCode": "BELLA10",
+      "total": 86.43,
+      "origin": "site",
+      "paymentMethod": "Pix",
+      "status": "delivered",
+      "createdAt": "2026-11-12T15:16:54.209Z",
+      "updatedAt": "2026-11-12T15:16:54.209Z"
+    },
+    {
+      "id": "ord-1042",
+      "orderNumber": "BM-1042",
+      "customerId": "cust-camila",
+      "customerName": "Camila Ferreira Rocha",
+      "customerEmail": "camila@bellacliente.com",
+      "customerPhone": "(62) 99145-8821",
+      "items": [
+        {
+          "productId": "prod-cesta-encanto",
+          "name": "Cesta Presente Encanto Rosa Completo",
+          "sku": "BM-CST-004",
+          "unitPrice": 119.9,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 119.9,
+      "discount": 0,
+      "shippingCost": 0,
+      "shippingMethod": "Retirada Balcão – Solar Ville",
+      "total": 119.9,
+      "origin": "balcao",
+      "paymentMethod": "Cartão de Crédito",
+      "status": "delivered",
+      "createdAt": "2026-11-13T15:16:54.209Z",
+      "updatedAt": "2026-11-13T15:16:54.209Z"
+    },
+    {
+      "id": "ord-1043",
+      "orderNumber": "BM-1043",
+      "customerId": "cust-larissa",
+      "customerName": "Larissa Mendonça Costa",
+      "customerEmail": "larissa@bellacliente.com",
+      "customerPhone": "(11) 98234-9901",
+      "address": {
+        "cep": "01310-100",
+        "street": "Avenida Paulista",
+        "number": "1500",
+        "complement": "Conjunto 42",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP"
+      },
+      "items": [
+        {
+          "productId": "prod-batom-velvet-couture",
+          "name": "Batom Velvet Matte Alta Pigmentação",
+          "sku": "BM-BTM-003",
+          "unitPrice": 14.9,
+          "quantity": 3,
+          "swatchName": "Rosa Malva"
+        },
+        {
+          "productId": "prod-lip-balm-cinco",
+          "name": "Lip Balm Hidratante Frutinhas (Achadinho)",
+          "sku": "BM-ACH-005",
+          "unitPrice": 5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 54.7,
+      "discount": 0,
+      "shippingCost": 25.4,
+      "shippingMethod": "Correios PAC",
+      "trackingCode": "BR884129301GO",
+      "total": 80.1,
+      "origin": "whatsapp",
+      "paymentMethod": "Pix via WhatsApp",
+      "status": "shipped",
+      "createdAt": "2026-11-14T15:16:54.209Z",
+      "updatedAt": "2026-11-14T15:16:54.209Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cup-bella10",
+      "code": "BELLA10",
+      "type": "percent",
+      "value": 10,
+      "minPurchase": 30,
+      "maxUses": 500,
+      "usedCount": 18,
+      "expiresAt": "2027-12-31T23:59:59.000Z",
+      "active": true,
+      "createdAt": "2026-11-01T10:00:00.000Z",
+      "updatedAt": "2026-11-01T10:00:00.000Z"
+    },
+    {
+      "id": "cup-goiania5",
+      "code": "BEMVINDA5",
+      "type": "fixed",
+      "value": 5,
+      "minPurchase": 25,
+      "maxUses": 300,
+      "usedCount": 9,
+      "expiresAt": "2027-12-31T23:59:59.000Z",
+      "active": true,
+      "createdAt": "2026-11-01T10:00:00.000Z",
+      "updatedAt": "2026-11-01T10:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "storeName": "Bella Menina Makeup",
+    "slogan": "Tudo para realçar sua beleza!",
+    "whatsappNumber": "5562999994321",
+    "whatsappWelcome": "Oi, linda! Bem-vinda à Bella Menina Makeup. Como podemos realçar sua beleza hoje?",
+    "whatsappOrderTemplate": "Olá, Bella Menina Makeup! Quero finalizar meu pedido pelo WhatsApp:",
+    "instagramUrl": "https://instagram.com/bellameninamakeup_",
+    "tiktokUrl": "https://tiktok.com/@bellameninamakeup",
+    "facebookUrl": "https://facebook.com/bellameninamakeup",
+    "businessHours": "Seg a Sáb · 09h às 19h (Alameda Higino Pires Martins, Solar Ville – Goiânia/GO)",
+    "footerText": "Bella Menina Makeup · Makes a partir de R$ 5,00 em Goiânia – GO e para todo o Brasil.",
+    "heroBannerUrl": "/src/assets/images/hero_beauty_editorial_1794666450438.jpg",
+    "secondaryBannerUrl": "/src/assets/images/prod_cesta_presente_1794666452579.jpg",
+    "seoTitle": "Bella Menina Makeup – Tudo para realçar sua beleza!",
+    "seoDescription": "Maquiagem e cosméticos a partir de R$ 5,00 em Goiânia – GO. Body splash, batons, glosses com charms, máscaras, bases, hidratantes, cestas e bonés com entrega rápida e Correios.",
+    "primaryColor": "#FF2D6F",
+    "logoUrl": "https://i.postimg.cc/6QDbnC50/Logo-Bella-Menina-em-Rosa-Metalico.png",
+    "shippingConfig": {
+      "originCep": "74470538",
+      "goianiaExpressFee": 12,
+      "freeShippingMinSubtotal": 199,
+      "enableGoianiaExpress": true,
+      "enableStorePickup": true,
+      "enableCorreiosPac": true,
+      "enableCorreiosSedex": true,
+      "extraHandlingDays": 0
+    },
+    "paymentConfig": {
+      "enablePix": true,
+      "pixKey": "bellameninamakeup@pix.com.br",
+      "pixDiscountPercent": 5,
+      "enableCreditCard": true,
+      "maxInstallments": 6,
+      "enableDebitCard": true,
+      "enableCashOnDelivery": true
+    },
+    "updatedAt": "2026-11-14T09:00:00.000Z"
+  },
+  "feedbacks": [
+    {
+      "id": "fb-1",
+      "customerName": "Isabela Costa",
+      "neighborhood": "Setor Bueno · Goiânia/GO",
+      "rating": 5,
+      "comment": "O gloss com charm de cereja chegou no mesmo dia aqui no Bueno! Embalagem cheirosa, brilho perfeito e nada pegajoso.",
+      "productName": "Gloss Glow com Charm Cereja & Soda",
+      "approved": true,
+      "createdAt": "2026-11-10T14:20:00.000Z"
+    },
+    {
+      "id": "fb-2",
+      "customerName": "Beatriz Almeida",
+      "neighborhood": "Residencial Solar Ville · Goiânia/GO",
+      "rating": 5,
+      "comment": "Sempre compro meus achadinhos a partir de R$ 5,00 e o Body Splash Rosé fixa o dia inteiro. Atendimento impecável!",
+      "productName": "Body Splash Rosé Lumière 200ml",
+      "approved": true,
+      "createdAt": "2026-11-11T16:45:00.000Z"
+    },
+    {
+      "id": "fb-3",
+      "customerName": "Rafaela Tavares",
+      "neighborhood": "Moema · São Paulo/SP",
+      "rating": 5,
+      "comment": "Pedi a Cesta Encanto Rosa pelo site com cálculo do SEDEX automático. Chegou super bem protegida para presente!",
+      "productName": "Cesta Presente Encanto Rosa Completo",
+      "approved": true,
+      "createdAt": "2026-11-12T11:10:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-mariana",
+      "name": "Mariana Oliveira Silva",
+      "email": "mariana@bellacliente.com",
+      "cpf": "123.456.789-01",
+      "birthDate": "1998-05-14",
+      "phone": "(62) 99812-4410",
+      "secondaryPhone": "(62) 3251-1190",
+      "role": "customer",
+      "blocked": false,
+      "addresses": [
+        {
+          "id": "addr-1",
+          "label": "Casa (Setor Marista)",
+          "recipientName": "Mariana Oliveira Silva",
+          "cep": "74150-050",
+          "street": "Rua 135",
+          "number": "412",
+          "complement": "Apto 802",
+          "neighborhood": "Setor Marista",
+          "city": "Goiânia",
+          "state": "GO",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-10-12T10:00:00.000Z",
+      "updatedAt": "2026-11-10T10:00:00.000Z",
+      "passwordHash": "9f42d6efad4390409ff2f22c5f45eb96:fccb0faff5f13f2665eadaf3be91b3ff23cc23a33d54055bd2ef4bcba91d30f536e3475f5958b4b80646fcf914f0473309451c2b12782e44916f18def9093a11"
+    },
+    {
+      "id": "cust-larissa",
+      "name": "Larissa Mendonça Costa",
+      "email": "larissa@bellacliente.com",
+      "cpf": "456.789.123-22",
+      "birthDate": "1995-09-23",
+      "phone": "(11) 98234-9901",
+      "role": "customer",
+      "blocked": false,
+      "addresses": [
+        {
+          "id": "addr-2",
+          "label": "Trabalho (Paulista)",
+          "recipientName": "Larissa Mendonça Costa",
+          "cep": "01310-100",
+          "street": "Avenida Paulista",
+          "number": "1500",
+          "complement": "Conjunto 42",
+          "neighborhood": "Bela Vista",
+          "city": "São Paulo",
+          "state": "SP",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-10-28T15:00:00.000Z",
+      "updatedAt": "2026-11-12T11:00:00.000Z",
+      "passwordHash": "16007d2d775b5ba5c2b4442bc51fa34f:3336a3a2786457ab7e78e119a58c440c5ef195e0b0415454cd747383df25cfb5814ac7c28a11602524c48f3c35609029c26db0cd34d07af3f1a3e015825687bf"
+    },
+    {
+      "id": "cust-camila",
+      "name": "Camila Ferreira Rocha",
+      "email": "camila@bellacliente.com",
+      "cpf": "789.321.654-09",
+      "birthDate": "2001-02-08",
+      "phone": "(62) 99145-8821",
+      "role": "customer",
+      "blocked": false,
+      "addresses": [
+        {
+          "id": "addr-3",
+          "label": "Residência Solar Ville",
+          "recipientName": "Camila Ferreira Rocha",
+          "cep": "74470-538",
+          "street": "Alameda Higino Pires Martins",
+          "number": "118",
+          "neighborhood": "Residencial Solar Ville",
+          "city": "Goiânia",
+          "state": "GO",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-13T16:00:00.000Z",
+      "passwordHash": "3fe2fc28d8cb6e8dec2ab091729f468f:bd71255e07e1b7bbda6305e318179b695eb130335e8d1ef86cb27610fb2516502b3406d0a79395c5766ea25fdc2241f06ad8bae42be1f2db3b90060f4f986ffa"
+    }
+  ],
+  "waitlist": [
+    {
+      "id": "wl-1",
+      "customerId": "cust-mariana",
+      "customerEmail": "mariana@bellacliente.com",
+      "productId": "prod-kit-pinceis-cetim",
+      "productName": "Kit Mini Pincéis & Espelho Pocket Pink",
+      "productImage": "/src/assets/images/prod_cesta_presente_1794666452579.jpg",
+      "productPrice": 24.9,
+      "createdAt": "2026-11-13T12:00:00.000Z"
+    }
+  ],
+  "adminLogs": [
+    {
+      "id": "log-1794671356069-270",
+      "actorEmail": "admin@x.com",
+      "action": "Categoria excluída",
+      "entityType": "category",
+      "entityId": "cat-1794671354354",
+      "details": "Iluminadores Glow",
+      "createdAt": "2026-11-14T15:49:16.069Z"
+    },
+    {
+      "id": "log-1794671355909-78",
+      "actorEmail": "admin@x.com",
+      "action": "Produto excluído",
+      "entityType": "product",
+      "entityId": "prod-1794671354685",
+      "details": "Iluminador Glow Líquido (BM-645)",
+      "createdAt": "2026-11-14T15:49:15.909Z"
+    },
+    {
+      "id": "log-1794671355166-276",
+      "actorEmail": "admin@x.com",
+      "action": "Categoria atualizada",
+      "entityType": "category",
+      "entityId": "cat-1794671354354",
+      "details": "Iluminadores -> Iluminadores Glow (1 itens atualizados)",
+      "createdAt": "2026-11-14T15:49:15.166Z"
+    },
+    {
+      "id": "log-1794671354907-727",
+      "actorEmail": "admin@x.com",
+      "action": "Produto atualizado",
+      "entityType": "product",
+      "entityId": "prod-1794671354685",
+      "details": "Iluminador Glow Líquido (BM-645)",
+      "createdAt": "2026-11-14T15:49:14.907Z"
+    },
+    {
+      "id": "log-1794671354688-985",
+      "actorEmail": "admin@x.com",
+      "action": "Produto criado",
+      "entityType": "product",
+      "entityId": "prod-1794671354685",
+      "details": "Iluminador Glow Líquido (BM-645)",
+      "createdAt": "2026-11-14T15:49:14.688Z"
+    },
+    {
+      "id": "log-1794671354354-603",
+      "actorEmail": "admin@x.com",
+      "action": "Categoria criada",
+      "entityType": "category",
+      "entityId": "cat-1794671354354",
+      "details": "Iluminadores",
+      "createdAt": "2026-11-14T15:49:14.354Z"
+    },
+    {
+      "id": "log-1794671353699-575",
+      "actorEmail": "admin@x.com",
+      "action": "Login administrativo realizado",
+      "entityType": "auth",
+      "details": "Sessão iniciada via login único.",
+      "createdAt": "2026-11-14T15:49:13.699Z"
+    },
+    {
+      "id": "log-1794671323089-679",
+      "actorEmail": "admin@x.com",
+      "action": "Categoria excluída",
+      "entityType": "category",
+      "entityId": "cat-1794671314568",
+      "details": "Iluminadores Glow",
+      "createdAt": "2026-11-14T15:48:43.089Z"
+    },
+    {
+      "id": "log-1794671322933-771",
+      "actorEmail": "admin@x.com",
+      "action": "Produto excluído",
+      "entityType": "product",
+      "entityId": "prod-1794671314888",
+      "details": "Iluminador Glow Líquido Rosa (BM-805)",
+      "createdAt": "2026-11-14T15:48:42.933Z"
+    },
+    {
+      "id": "log-1794671322762-717",
+      "actorEmail": "admin@x.com",
+      "action": "Produto atualizado",
+      "entityType": "product",
+      "entityId": "prod-1794671314888",
+      "details": "Iluminador Glow Líquido Rosa (BM-805)",
+      "createdAt": "2026-11-14T15:48:42.762Z"
+    },
+    {
+      "id": "log-1794671315174-174",
+      "actorEmail": "admin@x.com",
+      "action": "Categoria atualizada",
+      "entityType": "category",
+      "entityId": "cat-1794671314568",
+      "details": "Iluminadores -> Iluminadores Glow (1 itens atualizados)",
+      "createdAt": "2026-11-14T15:48:35.174Z"
+    },
+    {
+      "id": "log-1794671314892-925",
+      "actorEmail": "admin@x.com",
+      "action": "Produto criado",
+      "entityType": "product",
+      "entityId": "prod-1794671314888",
+      "details": "Iluminador Glow Líquido Rosa (BM-805)",
+      "createdAt": "2026-11-14T15:48:34.892Z"
+    },
+    {
+      "id": "log-1794671314568-820",
+      "actorEmail": "admin@x.com",
+      "action": "Categoria criada",
+      "entityType": "category",
+      "entityId": "cat-1794671314568",
+      "details": "Iluminadores",
+      "createdAt": "2026-11-14T15:48:34.568Z"
+    },
+    {
+      "id": "log-1794671313893-126",
+      "actorEmail": "admin@x.com",
+      "action": "Login administrativo realizado",
+      "entityType": "auth",
+      "details": "Sessão iniciada via login único.",
+      "createdAt": "2026-11-14T15:48:33.893Z"
+    },
+    {
+      "id": "log-1794670908318-425",
+      "actorEmail": "admin@x.com",
+      "action": "Login administrativo realizado",
+      "entityType": "auth",
+      "details": "Sessão iniciada via login único.",
+      "createdAt": "2026-11-14T15:41:48.318Z"
+    },
+    {
+      "id": "log-1",
+      "actorEmail": "admin@x.com",
+      "action": "Sistema inicializado",
+      "entityType": "settings",
+      "details": "Loja Bella Menina Makeup configurada com catálogo inicial e Correios.",
+      "createdAt": "2026-11-14T08:30:00.000Z"
+    },
+    {
+      "id": "log-2",
+      "actorEmail": "admin@x.com",
+      "action": "Código de rastreio atualizado",
+      "entityType": "order",
+      "entityId": "ord-1043",
+      "details": "Pedido #BM-1043 marcado como Enviado (BR884129301GO).",
+      "createdAt": "2026-11-14T09:15:00.000Z"
+    }
+  ]
+}
