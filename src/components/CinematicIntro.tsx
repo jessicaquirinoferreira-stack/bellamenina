@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 
 const INTRO_BACKDROP_URL =
-  '/src/assets/images/intro_beauty_silk_backdrop_1794669813327.jpg';
+  '/assets/images/intro_beauty_silk_backdrop_1794669813327.jpg';
 
 const INTRO_DURATION_MS = 7000;
 const FADE_OUT_START_MS = 6200;

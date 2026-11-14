@@ -6,7 +6,7 @@ import { buildWhatsAppUrl, formatBRL, getEffectivePrice } from '../utils/commerc
 
 const ASSISTANT_NAME = 'Camila';
 const ASSISTANT_AVATAR =
-  '/src/assets/images/assistant_camila_portrait_1794671722862.jpg';
+  '/assets/images/assistant_camila_portrait_1794671722862.jpg';
 
 interface ChatMessage {
   id: string;

@@ -12,17 +12,17 @@ import {
 } from '../types/store';
 
 export const GENERATED_IMAGES = {
-  heroEditorial: '/src/assets/images/hero_beauty_editorial_1794666450438.jpg',
-  glossCharm: '/src/assets/images/prod_gloss_charm_1794666450618.jpg',
-  bodySplash: '/src/assets/images/prod_body_splash_1794666452189.jpg',
-  batomVelvet: '/src/assets/images/prod_batom_velvet_1794666452287.jpg',
-  cestaPresente: '/src/assets/images/prod_cesta_presente_1794666452579.jpg',
-  boneCosmeticos: '/src/assets/images/prod_bone_cosmeticos_1794666455674.jpg',
-  cosmeticos: '/src/assets/images/cat_cosmeticos_paleta_1794669305587.jpg',
-  mascaras: '/src/assets/images/cat_mascaras_facial_1794669305757.jpg',
-  bases: '/src/assets/images/cat_bases_serum_1794669307157.jpg',
-  hidratantes: '/src/assets/images/cat_hidratantes_creme_1794669306993.jpg',
-  acessorios: '/src/assets/images/cat_acessorios_pinceis_1794669306823.jpg',
+  heroEditorial: '/assets/images/hero_beauty_editorial_1794666450438.jpg',
+  glossCharm: '/assets/images/prod_gloss_charm_1794666450618.jpg',
+  bodySplash: '/assets/images/prod_body_splash_1794666452189.jpg',
+  batomVelvet: '/assets/images/prod_batom_velvet_1794666452287.jpg',
+  cestaPresente: '/assets/images/prod_cesta_presente_1794666452579.jpg',
+  boneCosmeticos: '/assets/images/prod_bone_cosmeticos_1794666455674.jpg',
+  cosmeticos: '/assets/images/cat_cosmeticos_paleta_1794669305587.jpg',
+  mascaras: '/assets/images/cat_mascaras_facial_1794669305757.jpg',
+  bases: '/assets/images/cat_bases_serum_1794669307157.jpg',
+  hidratantes: '/assets/images/cat_hidratantes_creme_1794669306993.jpg',
+  acessorios: '/assets/images/cat_acessorios_pinceis_1794669306823.jpg',
 };
 
 export const OFFICIAL_LOGO_URL =
